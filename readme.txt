@@ -1,15 +1,13 @@
 API Endpoints
 
-Gravitar Url:   /gravatarUrl/samer.buna@gmail.com
+Gravitar Url:   /gravatarUrl/    +    email@domain.com  
+ex.             /gravatarUrl/misankovich@gmail.com
 
 When your server receives a request sent to  [server url]/gravatarUrl/[email address] , it will accept an email address from the url, and respond with the corresponding Gravatar url.
 
 You can create this url by making an MD5 hash of the email address given, and then putting it into this example url:
 
 http://www.gravatar.com/avatar/[HASH]
-
-Here would be Samer’s:
-http://www.gravatar.com/avatar/4b6b338a1609ea0a4dfec74208425620
 
 Discover an npm package made for making MD5 hashes here: https://www.npmjs.com/package/MD5
 
